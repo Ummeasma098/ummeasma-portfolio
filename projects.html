@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects | Asma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  background-image: url('black14.png');  /* 👈 Your image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color:transparent;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+   nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* spacing between icons */
+  padding: 20px 0;
+}
+
+nav a {
+  color: #bbb;
+  font-size: 24px;  /* bigger icon size */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+    .projects-section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .project-card {
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 8px #111;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #8ab4f8;
+    }
+
+    .project-card p {
+      color: #ccc;
+    }
+
+    .project-icon {
+      font-size: 24px;
+      margin-right: 10px;
+      vertical-align: middle;
+      color: #4b6cb7;
+    }
+
+     
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+      padding: 20px;
+      background-color: transparent;
+    }
+
+    @media (max-width: 600px) {
+      .project-card h3 {
+        font-size: 18px;
+      }
+      .project-card p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <h1 style="font-size: 26px; margin-bottom: 10px;">Umme Asma</h1>
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i></a>
+    <a href="about.html"><i class="fas fa-user"></i></a>
+    <a href="projects.html"><i class="fas fa-briefcase"></i></a>
+    <a href="contact.html"><i class="fas fa-envelope"></i></a>
+  </nav>
+</header>
+
+  <section class="projects-section">
+    <h2 style="text-align: center;">My Projects</h2>
+
+    <div class="project-card">
+      <h3><i class="fas fa-chart-line project-icon"></i>Diwali Sales Analysis (Python)</h3>
+       <p><strong>Tools:</strong> Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook</p>
+  <p>
+    Performed EDA using Python (<strong>Pandas, Matplotlib, Seaborn</strong>) on festive sales data to uncover customer insights.  
+    Cleaned & pre-processed data, applied <strong>groupby</strong> analysis, and built clear visualizations.📈
+  </p>
+      <ul><li><P><strong>Customer Insights:</strong> Found <strong>women(26-35yrs)</strong> contributed <strong>42% </strong>of total buyers.</ul></li></P>
+      <ul><li><p><strong>Regional Insights:</strong> Identified that the<strong> Top 3 states(Uttar Pradesh,Maharashtra,Karnataka)</strong> contributed <strong>30%</strong> of overall sales</ul></li></p>
+      <ul><li><p><strong>Category Insights: Clothing,Food & Electronics</strong> together accounted for <strong>62%</strong> of total sales</ul></li></p>
+      <ul><li><P><strong>Recommendation:</strong> Insights highlighted that we can improve the targeted marketing efficiency by focussing on young women in top states with key product categoriess </ul></li></P>
+      <a href="https://github.com/Ummeasma098/Python_Diwali_Sales_Analysis" target="_blank" style="color: #4b6cb7; text-decoration: underline;">
+    🔗 View Project on GitHub
+      </a>
+      </div>
+
+    <div class="project-card">
+      <h3><i class="fas fa-database project-icon"></i>Walmart Sales Analysis (My SQL)</h3>
+      <p><strong>Tools:</strong> MySQL, SQL Queries, Data Cleaning</p>
+      <p>
+       Designed and implemented a MySQL database to analyze Walmart sales data. 
+       Performed data cleaning , created derived fields , and wrote SQL queries to discover 🏢.
+      </p>
+      <ul><li><p><strong>Customer Insights:</strong> Identified peak purchase times(evenings contributed to <strong>40%</strong> of transactions) and high performing customer segments.</ul></li></p>
+      <ul><li><p><strong>Regional Insights:</strong> Found that the <strong>Top 3 branches</strong> contributed to <strong>30-35%</strong> of total revenue</ul></li></p>
+      <ul><li><p><strong>Category Insights:</strong> Identified that the <strong>Top products line eg.Food,Beverages & Electronics</strong> contributed to <strong>60%</strong> of sales</ul></li></p>
+      <ul><li><p><strong>Recommendation:</strong> Delivered insights that uncovered revenue trends and customer behaviour patterns enabling data driven branch strategies by focusing on <strong>Top 3 branches, Peak evening times and top product lines</strong></ul></li></p>         
+      <a href="https://github.com/Ummeasma098/MySQL_Walmart_Sales_Analysis" target="_blank"style="color:#4b6cb7;text-decoration:underline;">
+       🔗 View Project on GitHub
+       </a>
+    </div>
+
+    <div class="project-card">
+      <h3><i class="fas fa-file-excel project-icon"></i>Vrinda Store Sales Analysis (MS Excel)</h3>
+      <p><strong>Tools:</strong> MS Excel, Pivot Tables, Charts, Data Analysis</p>
+      <p>
+      Analyzed Vrinda Store sales data using Excel to uncover actionable insights and optimize business strategies.
+      </p>
+  
+     <p><strong>Key Segments Analyzed:</strong></p>
+    <ul>
+    <li style="font-weight: normal;"> Orders vs Sales </li>
+    <li style="font-weight: normal;">Sales by Gender </li>
+    <li style="font-weight: normal;">Order Status </li>
+    <li style="font-weight: normal;">Top 5 States by Sales </li>
+    <li style="font-weight: normal;">Orders: Age vs Gender </li>
+    <li style="font-weight: normal;">Sales Channels (Amazon, Flipkart, Myntra)</li>
+    </ul>
+  
+   <p><strong>Insights:</strong></p>
+   <ul>
+    <li><strong>Customer Insights: Women aged 30-49 yrs </strong> contributed to <strong> 65% </strong>of total buyers</li>
+    <li><strong>Regional Insights: Maharashtra, Karnataka & Uttar Pradesh. </strong> together contributes to <strong> 35% </strong> of sales</li>
+    <li><strong>Sales Channel Insights: Amazon, Flipkart & Myntra </strong> contributed to <strong>80%</strong> of total sales</li>
+   </ul>
+  
+   <p><strong>Recommendation:</strong> Focus marketing efforts on women aged 30–49 in Maharashtra, Karnataka & Uttar Pradesh via advertisements/offers on Amazon, Flipkart, and Myntra to boost sales 💡📈</p>
+     <a href="https://github.com/Ummeasma098/Vrinda_Store_Data_Analysis_Excel.git" target="_blank"style="color:#4b6cb7;text-decoration:underline;">
+       🔗 View Project on GitHub
+       </a>
+      </div>
+
+    
+  </section>
+
+  <footer>
+    © 2025 Umme Asma. All Rights Reserved.
+  </footer>
+</body>
+</html>

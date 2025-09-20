@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me | Asma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <style>
+   @keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+
+  body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  background-image: url('black14.png');  /* 👈 Your image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  header {
+      text-align: center;
+      padding: 20px;
+      background-color:transparent;
+    }
+
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* spacing between icons */
+  padding: 20px 0;
+}
+
+nav a {
+  color: #bbb;
+  font-size: 24px;  /* bigger icon size */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+    .about-section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .about-section h3 {
+      color: #8ab4f8;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    .about-section h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .about-section p {
+      color: #ccc;
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      margin: 10px 10px 20px;
+      border-radius: 8px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: #4b6cb7;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: #333;
+      color: white;
+      border: 1px solid #555;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+      padding: 20px;
+      background-color: transparent;
+    }
+
+    @media (max-width: 600px) {
+      .about-section h2 {
+        font-size: 20px;
+      }
+      .about-section p {
+        font-size: 14px;
+      }
+    }
+
+    .certifications-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.cert-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.cert-card h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #8ab4f8;
+}
+
+.cert-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #8ab4f8;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.cert-btn:hover {
+  background-color: #a8c6fc;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+  <h1 style="font-size: 26px; margin-bottom: 10px;">Umme Asma</h1>
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i></a>
+    <a href="about.html"><i class="fas fa-user"></i></a>
+    <a href="projects.html"><i class="fas fa-briefcase"></i></a>
+    <a href="contact.html"><i class="fas fa-envelope"></i></a>
+  </nav>
+</header>
+ <section style="text-align: center; padding: 50px 20px;">
+  <h2 style="font-size: 36px; color: #ffffff; margin-bottom: 20px;">About Me</h2>
+  
+  <p style="max-width: 700px; margin: 0 auto; color: #ccc; font-size: 18px; line-height: 1.6;">
+  Hi, I am <strong>Umme Asma</strong>, a passionate <strong>Data Analytics</strong> Enthusiast.
+  <br /><br />
+  <div style="max-width: 900px;margin: 0 auto;text-align: justify;">
+  <p>
+  Data Analytics enthusiast with a <STRONG>Bachelor's in Electronics and Communication Engineering.</STRONG> With a strong foundation in <strong>Python, SQL, MS Excel</strong> and Libraries like <strong>NumPy, Pandas, Matplotlib</strong> I enjoy exploring patterns, solving problems, and turning numbers into narratives that drive informed decision-making. I'm continuously learning new tools and technologies to stay ahead in the fast-evolving field of data. My recent projects have focused on sales analysis, customer segmentation, and optimizing business performance through actionable dashboards. I'm currently seeking opportunities to contribute to data-driven teams where I can grow while making a meaningful impact.
+</p>
+</div>
+</p>
+
+   <div style="margin-top: 15px;">
+  <div style="font-size: 28px; animation: bounce 1.2s infinite;">⬇️</div>
+  </div>
+   
+
+  <!-- ❌ Buttons removed here -->
+
+  <hr style="margin: 60px auto; width: 60%; border-color: #444;" />
+   <h3 style="text-align: center; font-size: 32px; color: #ffffff; margin-top: 60px;">Certifications</h3>
+
+   <div class="certifications-container">
+
+  <div class="cert-card">
+    <img src="iitmadraslogo.jpg" alt="IIT Madras" style="height: 53px; margin-bottom: 23px;" />
+    <h4>Python for Data Science</h4>
+    <p>IIT Madras (NPTEL)</p>
+    <p>Completed: Jan 2024</p>
+    <a href="https://drive.google.com/file/d/1wo0yG9XUYF6Z-q6VNtGpAb445IhRT4Yr/view?usp=drivesdk/" target="_blank" class="cert-btn">View Certificate</a>
+  </div>
+
+
+  <div class="cert-card">
+    <img src="IBMLOGO.png" alt="IBM" style="height: 40px; margin-bottom: 10px;" />
+    <h4>SQL & Databases for Data Science with Python</h4>
+    <p>IBM</p>
+    <p>Completed: Mar 2025</p>
+    <a href="https://drive.google.com/file/d/1xDoIG2FUlkeliQMWwnxT7D-GA34j8d7H/view?usp=drivesdk" target="_blank" class="cert-btn">View Certificate</a>
+  </div>
+
+
+  <div class="cert-card">
+    <img src="linkedinlogo.png" alt="linkedin" style="height: 58px; margin-bottom: 10px;" />
+    <h4>Learning Excel:Data Analysis</h4>
+    <p>LinkedIn Learning</p>
+    <p>Completed: Sept 2025</p>
+    <a href="https://drive.google.com/file/d/1IFIXFQlOV982d1U2XZc_XMC0qttXXUs1/view?usp=drivesdkv" target="_blank" class="cert-btn">View Certificate</a>
+  </div>
+
+  <div class="cert-card">
+    <img src="udemylogo.png" alt="UDEMY" style="height: 40px; margin-bottom: 10px;" />
+    <h4 style="font-size: 18px;margin-bottom: 10px;">Python Data Analysis:<br/>NumPy and Pandas<br/></h4>
+    <p>UDEMY</p>
+    <p>Completed: Sept 2025</p>
+    <a href="https://drive.google.com/file/d/1BPXUyI7SriCspuoT0kbcyL8Ss0ee_7pc/view?usp=drivesdk" target="_blank" class="cert-btn">View Certificate</a>
+  </div>
+
+  <div class="cert-card">
+    <img src="linkedinlogo.png" alt="linkedin" style="height: 58px; margin-bottom: 10px;" />
+    <h4>Statistics Foudation1:The Basics</h4>
+    <p>LinkedIn Learning</p>
+    <p>Completed: Sept 2025</p>
+    <a href="https://drive.google.com/file/d/1F0vuNdoAk_9Eet-7aXoWervo34rQV9Zs/view?usp=drivesdk" target="_blank" class="cert-btn">View Certificate</a>
+  </div>
+
+  
+  
+</div>
+    
+
+  
+</section>
+  <footer>
+    © 2025  Umme Asma. All Rights Reserved.
+  </footer>
+</body>
+</html>
